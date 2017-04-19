@@ -1,5 +1,0 @@
-var companyAnnualLeave = 30
-var BobRemainingLeaveDays = 12
-var AliceRemainingLeaveDays = 28
-var TomRemainingLeaveDays = 19
-var averageLeaveTaken = companyAnnualLeave-(BobRemainingLeaveDays+AliceRemainingLeaveDays+TomRemainingLeaveDays)/3
