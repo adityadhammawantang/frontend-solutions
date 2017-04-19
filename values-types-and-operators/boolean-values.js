@@ -7,11 +7,11 @@
  */
 
 exports.rank = function (grade) {
-  if (your_answer) {
-    return 'Average'
-  } else if (your_answer) {
-    return 'Good'
+  if (grade < 60) {
+    return 'Average';
+  } else if (grade < 90) {
+    return 'Good';
   } else {
-    return 'Excellent'
+    return 'Excellent';
   }
 }
